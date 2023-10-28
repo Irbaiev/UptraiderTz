@@ -1,0 +1,16 @@
+{% load menu_tags %}
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Меню</title>
+</head>
+<body>
+    {% autoescape off %}
+        {% draw_menu 'main_menu' %}
+    {% endautoescape %}
+
+
+</body>
+</html>
